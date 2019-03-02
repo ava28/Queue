@@ -99,7 +99,7 @@ public class QueueSimpleLinkedList<T extends Comparable<T>> implements Queue<T>,
 
     @Override
     public Iterator<T> iterator() {
-        //return queue.iterator();
+        
 
         return new Iterator<T>() {
         int _count=count;
