@@ -24,7 +24,7 @@ public class LinkedList<T extends Comparable<T>> implements Iterable<T>, Metodos
         try {
             Node<T> tmp = null;
             IsEmpty();
-            tmp = GetLastElement(this.head); //necesito el nodo que en su next es null para agregarle el nuevo
+            tmp = GetLastElement(this.head);
             tmp.setNext(_new);
             length++;
         } catch (IsEmptyException e) {
